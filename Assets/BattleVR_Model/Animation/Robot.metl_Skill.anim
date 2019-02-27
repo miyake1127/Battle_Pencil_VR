@@ -36207,16 +36207,16 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 1.875
-    functionName: CreateSkillEffect
-    data: SpikeExplosionBlue
+  - time: 1.8333334
+    functionName: OnSe
+    data: _robo_sukiru
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.875
-    functionName: OnSe
-    data: _robo_sukiru
+  - time: 1.8333334
+    functionName: CreateSkillEffect
+    data: Eff_Laser_3
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

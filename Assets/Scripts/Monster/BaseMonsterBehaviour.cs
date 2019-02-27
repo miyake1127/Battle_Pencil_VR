@@ -21,7 +21,7 @@ public class BaseMonsterBehaviour : MonoBehaviour
 
     void Start()
     {
-        operatorModel = GetComponentInParent<OperatorController>().OperatorModel;
+ 
         operatorModel.monsterBehaviour = this;
         operatorModel.monsterUI.Init();
 

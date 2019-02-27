@@ -12,6 +12,7 @@ public class CreateEffect : MonoBehaviour {
 
     public void CreateSkillEffect(string effectName)
     {
+
         EffectManager.Instance.CreateEffect(effectName, skillPos.position, destryTime);
 
     }
